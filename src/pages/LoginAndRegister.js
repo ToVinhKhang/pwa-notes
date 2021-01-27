@@ -42,8 +42,7 @@ function Login() {
                     onSubmit={errorsHandler}
                     action="/workspace"
                     className="login__form"
-                    autoComplete="off"
-                >
+                    autoComplete="off">
                     <img src="/images/notes.png" alt="ourteam" />
                     <p className="login__formQuote">
                         Notes for your better life
@@ -72,13 +71,27 @@ function Login() {
                     onSubmit={errorsHandler}
                     action=""
                     className="register__form"
-                    autoComplete="off"
-                >
+                    autoComplete="off">
                     <img src="/images/notes.png" alt="ourteam" />
                     <p className="register__formQuote">Get Started</p>
-                    <TextField value="" required id="standard-basic" label="Username" />
-                    <TextField value="" required id="standard-basic" label="Password" />
-                    <TextField value="" required id="standard-basic" label="Email" />
+                    <TextField
+                        value=""
+                        required
+                        id="standard-basic"
+                        label="Username"
+                    />
+                    <TextField
+                        value=""
+                        required
+                        id="standard-basic"
+                        label="Password"
+                    />
+                    <TextField
+                        value=""
+                        required
+                        id="standard-basic"
+                        label="Email"
+                    />
                     <Button type="submit" color="primary" variant="contained">
                         Register
                     </Button>
