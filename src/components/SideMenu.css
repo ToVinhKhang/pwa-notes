@@ -1,0 +1,41 @@
+.sideMenu {
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.sideMenu__userInfo,
+.sideMenu__allNotesLink,
+.sideMenu__trashLink {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    padding: 0.7rem 1.5rem;
+    margin: 0.5rem 0;
+}
+
+.sideMenu__allNotesLink:hover,
+.sideMenu__trashLink:hover {
+    background-color: lightgrey;
+    transition: all 0.3s ease;
+}
+
+.sideMenu__userInfo {
+    margin-bottom: 5rem;
+}
+
+.sideMenu__userInfo > p {
+    font-weight: 500;
+}
+
+.sideMenu__userInfo > p,
+.sideMenu__allNotesLink > p,
+.sideMenu__trashLink > p {
+    margin-left: 0.5rem;
+}
+
+.sideMenu__link--active {
+    background-color: lightgrey;
+}

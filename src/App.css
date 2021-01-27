@@ -1,0 +1,21 @@
+.app {
+    background-color: #f1f2f5;
+    min-height: 100vh;
+}
+
+.MuiCircularProgress-root,
+.MuiCircularProgress-svg {
+    position: absolute;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    height: 6rem;
+}
+
+.app__loadingText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1rem;
+}

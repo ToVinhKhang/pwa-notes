@@ -1,0 +1,69 @@
+.login__form,
+.register__form {
+    background-color: white;
+    width: 15rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.06);
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.MuiFormControl-root {
+    margin-bottom: 1rem !important;
+}
+
+.login__form > button {
+    margin-top: 2rem;
+    background-color: #008f26;
+    border-color: #008f26;
+    color: white;
+}
+
+.register__form > button {
+    margin-top: 2rem;
+}
+
+.login__form > img,
+.register__form > img {
+    height: 3rem;
+    width: 3rem;
+    align-self: center;
+}
+
+.login__formQuote,
+.register__formQuote {
+    align-self: center;
+    margin-top: 1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.login__form > span,
+.register__form > span {
+    text-decoration: none;
+    color: grey;
+    align-self: center;
+    font-size: small;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.login__form > span:hover,
+.register__form > span:hover {
+    transition: all 0.4s ease;
+    color: #008f26;
+    text-decoration: underline;
+}
+
+.login__formErrorMessage {
+    color: red;
+    margin-bottom: 0.5rem;
+    font-size: small;
+}
