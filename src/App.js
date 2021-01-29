@@ -3,7 +3,7 @@ import "./App.css";
 import {
     BrowserRouter as Router,
     Switch,
-    Route,
+    Route,Khang
     Redirect
 } from "react-router-dom";
 import LoginAndRegister from "./pages/LoginAndRegister";
